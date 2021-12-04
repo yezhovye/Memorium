@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MainVC-->
+        <!--My Memories-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Memorium" customModuleProvider="target" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                             <constraint firstItem="Esc-Qn-8Yb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zod-YW-4Bs"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="MainVC" id="euH-05-hOC"/>
+                    <navigationItem key="navigationItem" title="My Memories" id="euH-05-hOC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,6 +58,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nsk-m1-pmp">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="24"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
