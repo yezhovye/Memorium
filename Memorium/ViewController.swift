@@ -37,7 +37,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    @IBAction func cancelAction(_ segue: UIStoryboardSegue) {}
+    
 
 }
 
