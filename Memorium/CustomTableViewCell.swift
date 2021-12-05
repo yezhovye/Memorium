@@ -9,8 +9,18 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
-    @IBOutlet var imageOfPlace: UIImageView!
-    @IBOutlet var nameLabel: UILabel!
-    @IBOutlet var locationLabel: UILabel!
-    @IBOutlet var commentsLabel: UILabel!
+    
+    @IBOutlet weak var imageOfPlace: UIImageView!
+    
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var commentsLabel: UILabel!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+    }
+
 }
